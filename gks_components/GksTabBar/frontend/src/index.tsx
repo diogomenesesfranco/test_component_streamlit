@@ -1,12 +1,10 @@
-
 import React from "react"
 import ReactDOM from "react-dom"
-import TestComponent from "./TestComponent"
+import GksTabBar from "./TabBar"
 
 ReactDOM.render(
   <React.StrictMode>
-    <TestComponent />
+    <GksTabBar />
   </React.StrictMode>,
   document.getElementById("root")
 )
-
